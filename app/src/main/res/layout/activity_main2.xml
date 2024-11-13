@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="@drawable/volcan">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Ciencia Fisicas"
+        android:background="#d43138"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="@android:color/white"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="Desarrollo de aplicaciones"
+        style="@style/txtBronw"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="IO"
+        style="@style/txtBronw"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:text="ISWII"
+        style="@style/txtBronw"
+        />
+    <TextView
+        android:id="@+id/textView6"
+        android:text="IA"
+        style="@style/txtBronw"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAYOR INFORMACIÓN" />
+
+</LinearLayout>
